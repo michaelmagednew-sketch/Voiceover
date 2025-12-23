@@ -439,7 +439,7 @@ const App: React.FC = () => {
         <div className="relative w-14 h-14 md:w-16 md:h-16 rounded-full border border-amber-500/30 p-0.5 shadow-[0_0_15px_rgba(212,175,55,0.2)] hover:shadow-[0_0_25px_rgba(212,175,55,0.4)] transition-all duration-500 hover:scale-110 animate-float-slow backdrop-blur-sm overflow-hidden flex items-center justify-center">
           <div className="w-full h-full rounded-full overflow-hidden border border-white/5 flex items-center justify-center bg-transparent">
             <img 
-              src="https://i.ibb.co/WNzzztQw/Copy.jpg" 
+              src="https://fastupload.live/do.php?img=2890" 
               alt="Profile" 
               className="w-full h-full object-cover object-center block rounded-full"
             />
@@ -450,7 +450,7 @@ const App: React.FC = () => {
       {/* Social Media Links */}
       <div className="absolute top-8 right-8 z-[60] flex items-center gap-5">
         <a 
-          href="https://www.facebook.com/share/1AcufZTArY/" 
+          href="" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="text-white/40 hover:text-white hover:scale-110 transition-all duration-300 drop-shadow-sm hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.3)]"
@@ -461,7 +461,7 @@ const App: React.FC = () => {
           </svg>
         </a>
         <a 
-          href="https://www.instagram.com/ahmed_samir_ai?igsh=MWNzdmR2czliNTl0Ng==" 
+          href="" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="text-white/40 hover:text-white hover:scale-110 transition-all duration-300 drop-shadow-sm hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.3)]"
@@ -472,7 +472,7 @@ const App: React.FC = () => {
           </svg>
         </a>
         <a 
-          href="http://tiktok.com/@ahmed_samir_ai" 
+          href="" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="text-white/40 hover:text-white hover:scale-110 transition-all duration-300 drop-shadow-sm hover:drop-shadow-[0_0_10px_rgba(255,255,255,0.3)]"
