@@ -63,13 +63,13 @@ const CinematicIntro: React.FC<{ onComplete: () => void }> = ({ onComplete }) =>
       {/* Main Intro Content */}
       <div className="relative z-10 text-center scale-up">
         <div className={`${stage === 'titles' ? 'animate-cinematic' : 'opacity-0 transition-opacity duration-1000'}`}>
-          <h2 className="android-tech-logo text-6xl md:text-8xl">SAVIO</h2>
+          <h2 className="android-tech-logo text-6xl md:text-8xl">Mickey</h2>
           <div className="android-subtitle text-sm md:text-base">VOICE OVER</div>
         </div>
 
         <div className={`absolute inset-0 flex flex-col items-center justify-center transition-all duration-1000 ${stage === 'reveal' ? 'opacity-100 scale-100' : 'opacity-0 scale-90'}`}>
           <div className="relative flex flex-col items-center">
-            <h2 className="android-tech-logo text-5xl md:text-7xl">SAVIO</h2>
+            <h2 className="android-tech-logo text-5xl md:text-7xl">Mickey</h2>
             <div className="android-subtitle text-xs md:text-sm">VOICE OVER</div>
             
             {/* Intro Waveform Reacting */}
@@ -501,7 +501,7 @@ const App: React.FC = () => {
             </svg>
           </div>
           <div>
-            <h1 className="text-6xl font-bold gold-text tracking-tight leading-tight">سافيو استوديو</h1>
+            <h1 className="text-6xl font-bold gold-text tracking-tight leading-tight">ميكي استوديو</h1>
             <p className="text-white/30 text-xs uppercase tracking-[0.6em] font-medium mt-2">Professional Arabic Voice Engine</p>
           </div>
         </div>
